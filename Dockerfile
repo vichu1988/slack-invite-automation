@@ -1,5 +1,5 @@
 FROM node:onbuild
-MAINTAINER Benjamin Jorand <benjamin.jorand@gmail.com>
+MAINTAINER Visweshwaran S <v5.itsme@gmail.com>
 
 EXPOSE 3000
 
