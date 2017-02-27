@@ -30,3 +30,4 @@ node_modules
 .env
 .env.*
 .idea/
+/public/images/grid_of_people.jpg
