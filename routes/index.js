@@ -17,14 +17,10 @@ router.post('/invite', function (req, res) {
       url: 'https://' + config.slackUrl + '/api/users.admin.invite',
       form: {
         email: req.body.email,
-        token: config.slacktoken,
+        token: config.slackToken,
         set_active: true
       }
     }, function (err, httpResponse, body) {
-      // body looks like:
-      //   {"ok":true}
-      //       or
-      //   {"ok":false,"error":"already_invited"}
       if (err) {
         return res.send('Error:' + err);
       }

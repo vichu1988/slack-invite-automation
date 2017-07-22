@@ -5,14 +5,14 @@ var express = require('express'),
   cookieParser = require('cookie-parser'),
   bodyParser = require('body-parser'),
   config = require('./config'),
-  i18n = require("i18n");
+  i18n = require('i18n');
 
 var routes = require('./routes/index');
 
 var app = express();
 
 i18n.configure({
-  defaultLocale: "en",
+  defaultLocale: 'en',
   directory: __dirname + '/locales',
   autoReload: true
 });

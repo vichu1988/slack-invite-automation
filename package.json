@@ -1,20 +1,20 @@
 {
-  "name": "slack-invite-automation",
-  "version": "0.1.0",
+  "name": "star-dot-js-auto-invitation",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "^1.14.0",
+    "body-parser": "^1.17.2",
     "cookie-parser": "^1.4.0",
-    "debug": "^2.2.0",
+    "debug": "^2.6.8",
     "dotenv": "^4.0.0",
-    "express": "^4.13.0",
+    "express": "^4.15.3",
     "i18n": "^0.8.3",
     "jade": "^1.11.0",
-    "morgan": "^1.6.0",
-    "request": "^2.62.0",
-    "serve-favicon": "^2.3.0"
+    "morgan": "^1.8.2",
+    "request": "^2.81.0",
+    "serve-favicon": "^2.4.3"
   }
 }
